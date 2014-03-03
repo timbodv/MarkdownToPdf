@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Pechkin</id>
+    <version>0.5.8.1</version>
+    <title>Pechkin</title>
+    <authors>Gman</authors>
+    <owners>Gman</owners>
+    <licenseUrl>http://creativecommons.org/licenses/by/3.0/</licenseUrl>
+    <projectUrl>https://github.com/gmanny/Pechkin</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>.NET Wrapper for WkHtmlToPdf static DLL, library that uses Webkit engine to convert HTML pages to PDF. Allows you to utilize full power of the library. See Pechkin.Synchronized for thread safe wrapper.</description>
+    <releaseNotes>Added necessary dependencies to the project and package to fix HRESULT: 0x8007007E error when trying to use Pechkin. 0.5.8.1 added license and copyright cor the copies to be legal.</releaseNotes>
+    <copyright>Copyright 2012 Slava Kolobaev</copyright>
+    <language />
+    <tags>Html PDF Wrapper Converter Webkit</tags>
+    <dependencies>
+      <dependency id="Common.Logging" version="2.1.1" />
+    </dependencies>
+  </metadata>
+</package>
